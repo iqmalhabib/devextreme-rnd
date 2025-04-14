@@ -5,7 +5,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "./views/home-page";
 import Profile from "./views/profile-page";
 import Tasks from "./views/tasks-page";
-import defaultLayout from "./layouts/side-nav-inner-toolbar.vue";
+import defaultLayout from "./layouts/side-nav-outer-toolbar.vue";
 import simpleLayout from "./layouts/single-card";
 import DataGrid from './views/data-grid.vue';
 import DataGrid2 from './views/data-grid2.vue';

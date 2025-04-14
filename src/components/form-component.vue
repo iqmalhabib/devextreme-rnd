@@ -8,7 +8,7 @@
             <label for="umur">Umur</label>
             <input type="number" id="umur" v-model="umur"/>
         
-            <label for="jantina">Jantina</label>
+            <label for="jantina">Jantina:</label>
             <select v-model="jantina">
                 <option value="Lelaki">Lelaki</option>
                 <option value="Perempuan">Perempuan</option>
@@ -25,7 +25,7 @@ export default {
         return{
             nama:'',
             umur:'',
-            jantina:''
+            jantina:'Lelaki'
         };
     },
     methods:{

@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>Data Grid Example</h1>
+      <h1>Data Grid 2 Example</h1>
       <DataGrid
         :jsonUrl="'https://dummyjson.com/c/0e7c-5bfd-4519-ae06'"
         :columns="columns"
